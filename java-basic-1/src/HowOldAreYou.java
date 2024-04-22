@@ -14,12 +14,25 @@ public class HowOldAreYou {
 			// readLine() は、入出力エラーの可能性がある。エラー処理がないとコンパイルできない。
 			//  Java では、 try{ XXXXXXXX }  catch(エラーの型 変数) { XXXXXXXXXXXXXXXXXX} と書く
 		try {
-			System.out.println("何歳ですか?");
-			String line = reader.readLine();
+            while(true){
+                System.out.println("何歳ですか?(qまたはeで終了)");
+                String line = reader.readLine();
+
+                if(line.equalsIgnoreCase("q")||line.equalsIgnoreCase("e")){
+                    break;
+                }
+          
+
+
 			int age = Integer.parseInt(line);
 			System.out.println("あなたは" + age + "歳ですね。");
 			System.out.println("あなたは2030年に、" + (age + 6) + "歳ですね。");
             
+            if(age<0||age>=120){
+                System.err.println("年齢が正しくありません。再入力してください。");
+                continue;
+            }
+
             int year=2024-age;
             
             if(year>=2019){
@@ -43,8 +56,7 @@ public class HowOldAreYou {
                 System.out.println("あなたは明治" + number + "年生まれですね。");
             }
 
-
-            
+        }  
  
 		}
 		catch(IOException e) {
