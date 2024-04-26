@@ -28,12 +28,20 @@ public class NetprolabMember {
     System.out.println("女性が入らない割合は"+totalRatio);
   }
 
-  // Combination　未実装
-  public static final long combination(final int n, int r) {
-    if (r == 0 || n == r) {
-        return 1;
-    } else {
-        return combination(n - 1, r - 1) + combination(n - 1, r);
-    }
-}
+    // Combination
+    public static final long combination(final int n, int r) {
+      long[][] memo = new long[n + 1][r + 1];
+      return combinationHelper(n, r, memo);
+  }
+
+  private static long combinationHelper(int n, int r, long[][] memo) {
+      if (r == 0 || n == r) {
+          return 1;
+      }
+      if (memo[n][r] != 0) {
+          return memo[n][r];
+      }
+      memo[n][r] = combinationHelper(n - 1, r - 1, memo) + combinationHelper(n - 1, r, memo);
+      return memo[n][r];
+  }
 }
