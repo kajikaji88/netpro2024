@@ -15,7 +15,7 @@ public class HeikinCKadai {
 	}
 	
 	HeikinCKadai(String s){
-		this.kamokuname=s;
+		kamokuname=s;
 		
 	}
 	void initalizeScores(){
@@ -53,6 +53,7 @@ public class HeikinCKadai {
 	}
 
 }
+
 class Kamoku {
 	private int score;
 	private int studentid;
