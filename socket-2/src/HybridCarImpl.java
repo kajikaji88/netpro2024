@@ -1,4 +1,4 @@
-public class HybridCarImpl implements ICar,IElectricCharge{
+public class HybridCarImpl implements ICar,IElectricCharge , INavigation{
     int b=50;
     int sp=5;
     
@@ -12,7 +12,10 @@ public class HybridCarImpl implements ICar,IElectricCharge{
         IElectricCharge charger =(IElectricCharge) masaCar;
         charger.chargeBattery(100);
 
-    
+		INavigation navi = (INavigation) masaCar;
+		navi.setDistination();
+		navi.printRoute();
+		
     }
     
     
@@ -50,6 +53,17 @@ public class HybridCarImpl implements ICar,IElectricCharge{
 	public void printCarName() {
 		System.out.println("masacar");
 		
+	}
+
+	@Override
+	public void setDistination(){
+		System.out.println("Destination set.");
+	}
+
+	
+	@Override
+	public void printRoute(){
+		System.out.println("Printing route to the destination.");
 	}
 
 }

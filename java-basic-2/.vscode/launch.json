@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExtendedFor",
+            "request": "launch",
+            "mainClass": "ExtendedFor",
+            "projectName": "java-basic-2_d1afa046"
+        },
+        {
+            "type": "java",
+            "name": "Calc2Scanner",
+            "request": "launch",
+            "mainClass": "Calc2Scanner",
+            "projectName": "java-basic-2_d1afa046"
+        },
+        {
+            "type": "java",
             "name": "MyExceptionHoliday",
             "request": "launch",
             "mainClass": "MyExceptionHoliday",
