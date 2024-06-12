@@ -1,0 +1,133 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GUIAnimationMain",
+            "request": "launch",
+            "mainClass": "gui.GUIAnimationMain",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "GUIAniMultiTCPClient2",
+            "request": "launch",
+            "mainClass": "guichat.GUIAniMultiTCPClient2",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "GUIAnimationMain",
+            "request": "launch",
+            "mainClass": "guichat.GUIAnimationMain",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "GUIAniMultiTCPClient2",
+            "request": "launch",
+            "mainClass": "guibasic.GUIAniMultiTCPClient2",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "GUIAnimationMain",
+            "request": "launch",
+            "mainClass": "guibasic.GUIAnimationMain",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "SwingAnimationBasicTimerTest",
+            "request": "launch",
+            "mainClass": "guibasic.SwingAnimationBasicTimerTest",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "MovingBallAWT",
+            "request": "launch",
+            "mainClass": "guibasic.MovingBallAWT",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "MovingBallAWT",
+            "request": "launch",
+            "mainClass": "kadai.MovingBallAWT",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "CheckLocalAddreess",
+            "request": "launch",
+            "mainClass": "CheckLocalAddreess",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "Calc1",
+            "request": "launch",
+            "mainClass": "Calc1",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "Calc2",
+            "request": "launch",
+            "mainClass": "Calc2",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "Calc2Scanner",
+            "request": "launch",
+            "mainClass": "Calc2Scanner",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "HeikinCKadai",
+            "request": "launch",
+            "mainClass": "HeikinCKadai",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "MyExceptionHoliday",
+            "request": "launch",
+            "mainClass": "MyExceptionHoliday",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "XmasTree",
+            "request": "launch",
+            "mainClass": "XmasTree",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "netpro2024_19f90ab1"
+        }
+    ]
+}
