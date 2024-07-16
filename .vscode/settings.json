@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "socket-3/src",
+        "socket-1/src",
+        "java-basic-2/src",
+        "final/src",
+        "practice/src/practise1"
+    ],
+    "commentTranslate.multiLineMerge": false
+}

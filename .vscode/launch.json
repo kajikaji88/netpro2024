@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CenterKamokuManager",
+            "request": "launch",
+            "mainClass": "CenterKamokuManager",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "XmasTCPClinet",
+            "request": "launch",
+            "mainClass": "XmasTCPClinet",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "XmasTCPServ",
+            "request": "launch",
+            "mainClass": "XmasTCPServ",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "ExtendedFor",
+            "request": "launch",
+            "mainClass": "ExtendedFor",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "AchiMuiteHoiClient",
+            "request": "launch",
+            "mainClass": "AchiMuiteHoiClient",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "AchiMuiteHoiServer",
+            "request": "launch",
+            "mainClass": "AchiMuiteHoiServer",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "AbcServer",
+            "request": "launch",
+            "mainClass": "kadai06.AbcServer",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
+            "name": "AbcClient",
+            "request": "launch",
+            "mainClass": "kadai06.AbcClient",
+            "projectName": "netpro2024_19f90ab1"
+        },
+        {
+            "type": "java",
             "name": "GUIAnimationMain",
             "request": "launch",
             "mainClass": "gui.GUIAnimationMain",
